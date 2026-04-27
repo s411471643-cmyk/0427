@@ -129,7 +129,7 @@ h2 {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 100px) {
   .hero-name {
     font-size: 2rem;
   }
@@ -147,7 +147,19 @@ h2 {
   width: 100%;
   max-width: 500px;
   margin-top: 2rem;
-  opacity: 0.8;
+  opacity: 0.85;
   border-radius: 12px;
 }
+.card {
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  transition: all 0.2s ease;
+}
 
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.25);
+}
