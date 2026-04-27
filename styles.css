@@ -143,3 +143,11 @@ h2 {
   }
 }
 
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 2rem;
+  opacity: 0.8;
+  border-radius: 12px;
+}
+
