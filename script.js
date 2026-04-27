@@ -9,11 +9,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
-
-
 // =========================
 // DATA
 // =========================
+
 const courses = [
   {
     courseName: "民法債編總論（一）",
@@ -97,7 +96,6 @@ const courses = [
     description: "Improved coordination and learned fundamental table tennis techniques."
   }
 ];
-
 const projects = [
   {
     projectName: "Portfolio Website",
