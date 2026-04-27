@@ -127,9 +127,12 @@ const projects = [
     status: "In Progress"
   }
 ];
-
 const skills = {
-  personal: [
+  Programming: ["Python", "JavaScript"],
+  "AI / ML": ["Generative AI basics"],
+  Web: ["HTML", "CSS"],
+  Tools: [],
+  Personal: [
     "Fast typing",
     "Empathy",
     "Attention to detail"
